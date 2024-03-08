@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+*, html {
+  scroll-behavior: smooth !important;
+  font-family: 'Montserrat', sans-serif ;
+
+  @apply snap-mandatory snap-y
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -13,21 +22,34 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+
   }
 }
 
 body {
+
+  font-family: 'Montserrat', sans-serif ;
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+  @apply bg-gradient-to-bl from-midnight to-black text-baby-blue
+}
+.link {
+  @apply py-2 text-xs text-white hover:text-red-300 opacity-80 font-normal not-italic transition-all duration-300
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+.stop {
+  /*scroll-snap-align: start;*/
+  @apply snap-none md:snap-start
+  /*scroll-snap-stop: initial;*/
+
 }
+.transition-transform {
+  transition: transform 0.3s ease-in-out;
+}
+img {
+  /*width: 100%; !* or max-width: 100%; *!*/
+  /*height: auto;*/
+}
+
+
