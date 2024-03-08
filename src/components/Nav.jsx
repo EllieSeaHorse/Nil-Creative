@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Nav({ children, classname }) {
     return (
         <header
-            className="${classname} fixed top-0 w-full h-16 md:h-16 flex justify-start items-center  z-50"
+            className={`${classname} top - 0 w-full h-16 md:h-16 flex justify-start items-center  z-50`}
         >
             <div className="sticky flex items-center w-full justify-between px-6 md:px-8 my-4">
                 <Link href="/">

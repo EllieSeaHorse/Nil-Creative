@@ -12,7 +12,7 @@ const Footer = ({className}) => {
     return (
         <footer
             // className="${classname} bg-red-700 fixed top-0 w-full h-16 md:h-16 flex justify-start items-center "
-            className={`fixed text-sm bottom-0 z-50 w-full h-16 md:h-16 flex flex-col items-center p-2 ${className}`}
+            className={`text-xs bottom-0 z-50 w-full h-16 md:h-16 flex flex-col items-center p-2 ${className}`}
         >
             <div className="flex align-middle justify-center items-center space-x-4 text-neutral-200  z-50">
 

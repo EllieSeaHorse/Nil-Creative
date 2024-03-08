@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/seasonal/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
@@ -24,6 +24,7 @@ module.exports = {
         'midnight': '#030025',
         'violet': '#2D0043',
         'deep-aqua': '#006177',
+        'light-aqua': '#00E2E2',
         'baby-blue': '#E9FBFF',
         'pale-azure': '#C4F2FE',
         'dark-aqua': '#00313C',
