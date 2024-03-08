@@ -165,10 +165,6 @@ export default function Page() {
                     Nil Hall is a creative studio focused on enhancing the visual appeal of brands, offering various services including brand identity design, architectural and retail space design, packaging, and advertising. At Nil, we seek new ways of delivering products and services, with no limits to our imagination.
 
                 </h1>
-                <img
-                    className={"py-2"}
-                    src={'NIL POSTER-02.jpg'}
-                />
 
                 <h1 className={"subheading"}>
                     About the Competition
