@@ -146,14 +146,14 @@ export default function Page() {
         <div
         >
             <div className={"m-12 md:m-24 lg:m-36 "}>
-                <h1 className={"title !text-4xl"}>
+                <h1 className={"title !text-lg md:!text-4xl"}>
                     International
                     <span className={"p-1 text-light-aqua"}>
                 Women's
             </span>
                     Day
                 </h1>
-                <h1 className={"title py-1"}>
+                <h1 className={"title !text-lg md:!text-4xl"}>
                     and the Start of Nil Hall
                 </h1>
 
