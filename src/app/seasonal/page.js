@@ -124,7 +124,7 @@ export default function Page() {
                 <h1 className={"article text-xs farsi"}>
                     ۱. بهره‌مندی از خدمات دیزاین یا ریدیزاین، بسته به نیازمندی‌های کار که می‌تواند شامل طراحی برند و
                     هویت برند، طراحی فضای فروشگاهی، بسته‌بندی، المان‌های
-                    تبلیغاتی و طراحی وبسایت و فروشگاه مجازی باشد.
+                    تبلیغاتی، عکاسی محصول و طراحی وبسایت و فروشگاه مجازی باشد.
                 </h1>
                 <h1 className={"article text-xs farsi"}>
                     ۲. کمک‌هزینه‌ی مالی برای چاپ و تولید اقلام طراحی‌شده توسط استودیوی نیل.
@@ -224,7 +224,7 @@ export default function Page() {
 
                 </h1>
                 <h1 className={"article text-xs"}>
-                    1. Access to design or redesign services, depending on the needs of the business, which can include brand and identity design, retail space design, packaging, advertising elements, and website design.
+                    1. Access to design or redesign services, depending on the needs of the business, which can include brand and identity design, retail space design, packaging, advertising elements, photography, and website design.
                 </h1>
                 <h1 className={"article text-xs"}>
                     2. Financial assistance for printing and production of designed items by Nil studio.
